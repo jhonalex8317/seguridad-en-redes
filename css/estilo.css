@@ -1,0 +1,126 @@
+*{
+	margin: 0;
+	padding: 0;
+
+}
+
+body{
+	background:#808080;
+	color:#005883;
+	font-family: "Angsana New";
+     }
+
+    nav{
+	background: #005883;
+	height: 90px;
+      }
+
+nav img{
+	 float: left;
+	 height: 90px;
+	 width:100px;
+
+      }
+
+nav li{
+	list-style: none;
+	display: inline-block;
+	padding: 20px 0px;
+      }
+
+nav a{
+	color: #FFFFFF;
+	font-size:  18px;
+	font-weight: bold;
+	font-family: Angsana New;
+	text-decoration: none;
+	padding: 20px;
+
+      }
+
+nav a:hover
+     {
+	background: #CCCCCC;
+	color: #000000;
+     }
+     header{
+	background: #FFFFFF;
+	height: 100%;
+	float: left;
+}
+#contenido{
+	float: left;
+	width: 1085px;
+	background: #FFFFFF;
+	border-radius: 10px;
+	overflow:  hidden;
+	margin-top: 10px;
+	margin-right: 10px;
+	margin-bottom: 10px;
+}
+.articulos{
+	margin: 10px;
+}
+
+.articulos h2 {
+	font-size: 40px;
+	padding: 10px;
+	color: #000000;
+	border-bottom: 3px solid #F47920;
+	font-family: Angsana New; 
+
+}
+
+.articulos img{
+	 float: left;
+	 margin: 10px;
+}
+.articulos p{
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-family: Angsana New;
+
+}
+ aside {
+	 float: right; 
+	 width: 250px;
+	 background: #FFFFFF;
+	 margin-top: 10px;
+	 border-radius: 10px;
+      }
+
+      aside h3{
+	font-size: 20px;
+	color: #ffffff;
+	background: #005883;
+	border-radius: 4px;
+	text-align: center;
+	padding: 10px;
+	font-family: Angsana New; 
+}
+
+      aside p{
+	padding: 10px;
+	font-size: 14px;
+	font-family: Angsana New;
+	text-align: justify;
+
+}
+
+footer{
+	height: 40px;
+	background: #005883;
+	color: #FFFFFF;
+	clear: both;
+
+}
+
+footer p{
+	font-size: 15px;
+	font-family: Angsana New;
+	text-align: center;
+	line-height: 30px;
+
+}
+
+

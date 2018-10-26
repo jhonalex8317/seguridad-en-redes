@@ -1,24 +1,20 @@
-<html>
+<!DOCTYPE html>
+<html lang="es"> 
 <head>
-<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
 
-<link rel="stylesheet" type="text/css" href="css/estilo.css">
-<link rel="stylesheet" type="text/css" href="./css/content.css">
-<link rel="stylesheet" type="text/css" href="./css/nav.css">
-
-<title>SEGURIDAD DE REDES</title>
-
+	<script type="js/modernizr.js"></script>
+	<script type="js/jquery.js"></script>
+	<title>Seguridad en redes </title>
 </head>
 <body>
-
-<!-- Inicio banner -->
-
-<div id="content">
-<p id="skipNav">
-<a href="https://stadium.unad.edu.co/ovas/10596_9134/index.html#main" class="sr-av">Saltar la navegación</a></p>
-<div id="header" role="banner"><div id="headerContent">SEGURIDAD DE REDES -INICIO</div></div>
-<div id="siteNav" role="navigation" style="padding-bottom: 0px; margin-bottom: 0px;">
+	 <header class="page-header">
+        <div class="center-contents">
+          <a class="logo" href="#" title=""><img src="images/logo-example.png" alt=""></a>
+          <nav class="page-nav">
+		 	<img src="img/logo.jpg">
 			<ul id="menu">
 				<li>
 					<a href="index.html">INICIO</a>
@@ -46,28 +42,23 @@
 					<a href="autores.html">AUTORES</a>
 				</li>
 			</ul>
-</div>
-<div id="topPagination">
-<div class="pagination noprt">
-<a href="https://stadium.unad.edu.co/ovas/10596_9134/index.html#" onclick="window.print();return false" title="Imprimir" class="print-page"><span>Imprimir</span></a> 
-</div>
-</div>
-<!-- Fin banner -->
+          </nav>
+        </div>
+      </header>
+ 
+		 <section id="slider">
+			<img width="100%" src="img/s.jpg">
 
+		</section>
 
-<div id="main-wrapper">
-<div id="main" role="main"><a name="main"></a>
-<div id="nodeDecoration"><h1 id="nodeTitle">Inicio</h1></div>
-<div class="iDevice_wrapper FreeTextIdevice" id="id17">
-<div class="iDevice emphasis0">
-<div id="ta17_85" class="block iDevice_content">
-
+    <section id="contenido">
+			 <article class="articulos ">
 			 	<h2>DESCRIPCIÓN GENERAL</h2>
 			 	
-			 	<p>Utilizar los conceptos básicos de seguridad informática, estándares y normas en la seguridad de redes.<p> Es mantener la provisión de información libre de riesgo y brindar servicios para un determinado fin. <p>involucra protocolos, tecnologías, dispositivos, herramientas y técnicas para asegurar los datos y mitigar las amenazas.</p>
+			 	<p>Utilizar los conceptos básicos de seguridad informática, estándares y normas en la seguridad de redes.</p>
 
 			 	 <article class="articulos ">
-			 	<h2>QUE SE BUSCA CON LA CREACIOB DEL OVI DE SEGURIDAD EN REDES</h2>
+			 	<h2>OBJETIVOS DEL OVI</h2>
 			 	
 			 	<p>Obtener habilidades en el desarrollo de sitios web utilizando objetos virtuales de aprendizaje atreves de tecnologías basadas en html y css.<p> Introducción a HTML5, Estructura básica de HTML5, Aplicación de elementos de HTML5 a un proyecto de diseño Web, Introducción a CSS3, Estructura básica de CSS3, Aplicación de elementos de CSS3 a un proyecto de diseño Web.<p>Implementar la información acerca de la administración de redes atravez de un diseño de sitios web.<p>Identificar amenazas de seguridad a las que se expone una red.</p>
 			 </article>
@@ -81,23 +72,19 @@
 			 	
 			 	<p>Que el estudiante se fundamente teóricamente sobre las generalidades básicas del Diseño  Web.<p>Que el estudiante pueda utilizar de forma correcta los lenguajes HTML5 y CSS3 para aplicarlos en la solución de problemas de construcción de Sitios Web. <p> Que el estudiante implemente servicios y sitios web a través de sistemas de control de versiones.</p>
 			 </article>
-</div>
-</div>
-</div>
+		</section>
+	<aside>
+			<h3>Publicidad</h3>
+			 <p> Noticias y actualidad referente al plantel educitivo en  </p>
+			<a class="twitter-timeline"
+             href="https://twitter.com/universidadunad">
+              twitter Universidad Abierta y a Distancia 
+             </a>
+		</aside>
+		<footer>
+			<p> Todos los derechos reservados &copy; 2017 proyecto web grupo 301122_92</p>
+		</footer>
 
-</div>
-</div>
+</body>
+</html><!DOCTYPE html>
 
-
-<!-- Inicio footer -->
-<footer>
-<div id="bottomPagination">
-<div class="pagination noprt">
-</div>
-</div>
-<div id="siteFooter" role="contentinfo">Desarrollado por: GRUPO  301122A_474 DISEÑOS DE SITIOS WEB GRUPO  301122A_474<br>
-Universidad Nacional Abierta y a Distancia UNAD - (2018)  </div></div>
-</footer>
-<!-- fin footer -->
-
-</body></html>

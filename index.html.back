@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es"> 
+<head>
+	<meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+	<link rel="stylesheet" type="text/css" href="css/estilo.css">
+
+	<script type="js/modernizr.js"></script>
+	<script type="js/jquery.js"></script>
+	<title>Seguridad en redes </title>
+</head>
+<body>
+	 <header class="page-header">
+        <div class="center-contents">
+          <a class="logo" href="#" title=""><img src="images/logo-example.png" alt=""></a>
+          <nav class="page-nav">
+		 	<img src="img/logo.jpg">
+			<ul id="menu">
+				<li>
+					<a href="index.html">INICIO</a>
+				</li>
+				<li>
+					<a href="">LECTURAS</a>
+					<ul>
+					<li><a href="lecturas/lectura1.html"> Lectura 1</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="galeria">MULTIMEDIA</a>
+				</li>
+				<li>
+					<a href="#">ACTIVIDADES</a>
+										<ul>
+					<li><a href="">Submenu 1</a></li>
+					<li><a href="">Submenu 2</a></li>
+					<li><a href="">Submenu 3</a></li>
+					
+				</ul>
+					
+				</li>
+				<li>
+					<a href="autores.html">AUTORES</a>
+				</li>
+			</ul>
+          </nav>
+        </div>
+      </header>
+ 
+		 <section id="slider">
+			<img width="100%" src="img/s.jpg">
+
+		</section>
+
+    <section id="contenido">
+			 <article class="articulos ">
+			 	<h2>DESCRIPCIÓN GENERAL</h2>
+			 	
+			 	<p>Utilizar los conceptos básicos de seguridad informática, estándares y normas en la seguridad de redes.</p>
+
+			 	 <article class="articulos ">
+			 	<h2>OBJETIVOS DEL OVI</h2>
+			 	
+			 	<p>Obtener habilidades en el desarrollo de sitios web utilizando objetos virtuales de aprendizaje atreves de tecnologías basadas en html y css.<p> Introducción a HTML5, Estructura básica de HTML5, Aplicación de elementos de HTML5 a un proyecto de diseño Web, Introducción a CSS3, Estructura básica de CSS3, Aplicación de elementos de CSS3 a un proyecto de diseño Web.<p>Implementar la información acerca de la administración de redes atravez de un diseño de sitios web.<p>Identificar amenazas de seguridad a las que se expone una red.</p>
+			 </article>
+			 <article class="articulos ">
+			 	<h2>INFORMACÍON DEL CURSO</h2>
+			 	
+			 	<p>El curso Diseño de Sitios Web, es un curso académico dirigido a los estudiantes del programa de Ingeniería de Sistemas y en general  para los estudiantes de los programas tecnológicos y profesionales de la Universidad Nacional Abierta y a Distancia UNAD de Colombia, que estén interesados en el diseño web y la administración básica de sitios web. Este curso se estructura bajo los principios académicos y pedagógicos del sistema de educación Abierta y a Distancia  que promueve la Universidad a través de su Proyecto Académico Pedagógico enfocado en los ambientes virtuales de aprendizaje AVA como estrategia dinamizadora de un proceso de formación continuo y articulado.  Este pertenece al campo de formación profesional como un curso electivo del programa de ingeniería de sistemas, pero dado su impacto en diferentes roles profesionales el mismo aplica como electivo para diferentes programas de la universidad. EL curso se estructura en tres (3) Unidades didácticas denominadas:<p> Unidad  1. Introducción al Diseño Web, Unidad 2. HTML5 y la Unidad 3. CSS3.<p> Cada una de estas unidades poseen tres capítulos con temáticas acordes y actualizadas frente a estas mismas, las tres unidades abordan aspectos de desarrollo , implementación y administración de proyectos de diseño web, para el curso se define a su vez el uso de las Tics como agente mediador en el curso entre Docentes y Estudiantes; para esto la Universidad Cuenta con un campus virtual el cual posee elementos de aprendizaje interactivo como OVAS, Tutoriales y Vídeos, que se complementan con la aplicación de actividades académicas en línea y la utilización de canales síncronos y asíncronos de comunicación para el desarrollo del proceso académico que propone el curso.</p>
+			 </article>
+			  <article class="articulos ">
+			 	<h2>PROPOSITO DEL CURSO </h2>
+			 	
+			 	<p>Que el estudiante se fundamente teóricamente sobre las generalidades básicas del Diseño  Web.<p>Que el estudiante pueda utilizar de forma correcta los lenguajes HTML5 y CSS3 para aplicarlos en la solución de problemas de construcción de Sitios Web. <p> Que el estudiante implemente servicios y sitios web a través de sistemas de control de versiones.</p>
+			 </article>
+		</section>
+	<aside>
+			<h3>Publicidad</h3>
+			 <p> Noticias y actualidad referente al plantel educitivo en  </p>
+			<a class="twitter-timeline"
+             href="https://twitter.com/universidadunad">
+              twitter Universidad Abierta y a Distancia 
+             </a>
+		</aside>
+		<footer>
+			<p> Todos los derechos reservados &copy; 2017 proyecto web grupo 301122_92</p>
+		</footer>
+
+</body>
+</html><!DOCTYPE html>
+

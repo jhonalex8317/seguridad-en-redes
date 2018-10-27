@@ -28,7 +28,7 @@
  */
 .TabbedPanels {
 	overflow: hidden;
-	margin: 0px;
+	margin: 1px;
 	padding: 0px;
 	clear: none;
 	width: 100%; /* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/
@@ -44,7 +44,7 @@
  * want to style the TabGroup container.
  */
 .TabbedPanelsTabGroup {
-	margin: 0px;
+	margin: 1px;
 	padding: 0px;
 }
 

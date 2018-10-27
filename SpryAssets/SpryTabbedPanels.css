@@ -45,7 +45,7 @@
  */
 .TabbedPanelsTabGroup {
 	margin: 1px;
-	padding: 0px;
+	padding: 1px;
 }
 
 /* This is the selector for the TabbedPanelsTab. This container houses
@@ -67,7 +67,7 @@
 .TabbedPanelsTab {
 	position: relative;
 	top: 1px;
-	float: left;
+	float: right;
 	padding: 4px 10px;
 	margin: 0px 1px 0px 0px;
 	font: bold 0.7em sans-serif;

@@ -28,7 +28,7 @@
  */
 .TabbedPanels {
 	overflow: hidden;
-	margin: 1px;
+	margin: 0px;
 	padding: 0px;
 	clear: none;
 	width: 100%; /* IE Hack to force proper layout when preceded by a paragraph. (hasLayout Bug)*/

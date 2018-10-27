@@ -67,9 +67,9 @@
 .TabbedPanelsTab {
 	position: relative;
 	top: 1px;
-	float: right;
+	float: left;
 	padding: 4px 10px;
-	margin: 0px 1px 0px 0px;
+	margin: 1px 1px 1px 1px;
 	font: bold 0.7em sans-serif;
 	background-color: #DDD;
 	list-style: none;
@@ -202,7 +202,7 @@
  */
 .VTabbedPanels .TabbedPanelsTab {
 	float: none;
-	margin: 0px;
+	margin: 1px;
 	border-top: none;
 	border-left: none;
 	border-right: none;

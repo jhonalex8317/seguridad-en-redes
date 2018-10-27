@@ -5,12 +5,11 @@
 	<link rel="stylesheet" type="text/css" href="css/normalize.css">
 	<link rel="stylesheet" type="text/css" href="css/prefix-free.css">
 	<link rel="stylesheet" type="text/css" href="css/estilo.css">
-    <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-
-    <script type="text/javascript" src="js/cambiarPestanna.js"></script>
-
-
-	<script type="js/modernizr.js"></script>
+	<link href="SpryAssets/SpryTabbedPanels.css" rel="stylesheet" type="text/css">
+	<script type="text/javascript" src="js/cambiarPestanna.js"></script>
+<script type="text/javascript" src="js/jquery-1.7.2.min.js"></script>
+    <script src="SpryAssets/SpryTabbedPanels.js" type="text/javascript"></script>
+    <script type="js/modernizr.js"></script>
 	<script type="js/jquery.js"></script>
 	<title>Seguridad en redes </title>
 </head>
@@ -68,21 +67,36 @@
    
         <div id="pestanas">
             <ul id=lista>
-                <li id="pestana1"><a href='javascript:cambiarPestanna(pestanas,pestana1);'>Ataques</a></li>
-                <li id="pestana2"><a href='javascript:cambiarPestanna(pestanas,pestana2);'>Ataques de Reconocimiento</a></li>
+                <li id="pestana1">
+                  <div id="TabbedPanels1" class="TabbedPanels">
+                    <ul class="TabbedPanelsTabGroup">
+                      <li class="TabbedPanelsTab" tabindex="0">Ataques</li>
+                      <li class="TabbedPanelsTab" tabindex="0">Ataques de Reconocimiento</li>
+                    </ul>
+                    <div class="TabbedPanelsContentGroup">
+                      <div class="TabbedPanelsContent"><iframe src='https://es.educaplay.com/es/recursoseducativos/4084092/html5/ataques_seguridad_en_redes.htm' width='795' height='690' frameborder='0'></iframe></div>
+                      <div class="TabbedPanelsContent"><iframe src='https://es.educaplay.com/es/recursoseducativos/4079910/html5/amenazas_seguridad_en_redes.htm' width='795' height='690' frameborder='0'></iframe></div>
+                    </div>
+                  </div>
+                </li>
+               
+                <li id="pestana2"></li>
             </ul>
         </div>
 
         <body onload="javascript:cambiarPestanna(pestanas,pestana1);">
 
-        <div id="contenidopestanas">
-          <div id="cpestana1">
-            <iframe src='https://es.educaplay.com/es/recursoseducativos/4084092/html5/ataques_seguridad_en_redes.htm' width='795' height='690' frameborder='0'></iframe>
-            </div>
+<div id="contenidopestanas">
+  <div id="cpestana1">
+    
+    </div>
           <div id="cpestana2">
-            <iframe src='https://es.educaplay.com/es/recursoseducativos/4079910/html5/amenazas_seguridad_en_redes.htm' width='795' height='690' frameborder='0'></iframe>
+            
           </div>
     </div>
+<script type="text/javascript">
+var TabbedPanels1 = new Spry.Widget.TabbedPanels("TabbedPanels1");
+        </script>
 </body></p>
 			 	<h2><div class="contenedor"></h2>
                 
@@ -95,8 +109,8 @@
 			<a class="twitter-timeline"
              href="https://twitter.com/universidadunad">
               twitter Universidad Abierta y a Distancia 
-             </a>
-		</aside>
+      </a>
+</aside>
 		<footer>
 			<p> Todos los derechos reservados &copy; 2017 proyecto web grupo 301122_92</p>
 		</footer>

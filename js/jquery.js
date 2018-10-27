@@ -1,4 +1,6 @@
-/ *! jQuery v3.3.1 | (c) Fundación JS y otros contribuyentes | jquery.org/license * /function cambiarPestanna(pestannas,pestanna) {
+/ *! jQuery v3.3.1 | (c) Fundación JS y otros contribuyentes | jquery.org/license * /
+
+function cambiarPestanna(pestannas,pestanna) {
     
     // Obtiene los elementos con los identificadores pasados.
     pestanna = document.getElementById(pestanna.id);
